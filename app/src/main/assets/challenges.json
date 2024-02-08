@@ -1,0 +1,61 @@
+{
+  "dailyChallenge": [
+    {
+      "id": 1,
+      "name": "Morning Yoga",
+      "description": "Practice 30 minutes of morning yoga"
+    },
+    {
+      "id": 2,
+      "name": "Stay Hydrated",
+      "description": "Drink 2 liters of water throughout the day"
+    },
+    {
+      "id": 3,
+      "name": "No Sugar",
+      "description": "Avoid consuming sugar for the entire day"
+    },
+    {
+      "id": 4,
+      "name": "Meditation",
+      "description": "Engage in 15 minutes of meditation"
+    },
+    {
+      "id": 5,
+      "name": "Plank Challenge",
+      "description": "Hold a plank position for 3 minutes"
+    },
+    {
+      "id": 6,
+      "name": "Cycle Session",
+      "description": "Cycle for 30 minutes"
+    }
+  ],
+  "monthlyChallenge": [
+    {
+      "id": 7,
+      "name": "Clean Eating",
+      "description": "Follow 30 days of clean eating"
+    },
+    {
+      "id": 8,
+      "name": "Swimming",
+      "description": "Swim for a total of 15 hours during the month"
+    },
+    {
+      "id": 9,
+      "name": "Push-ups Challenge",
+      "description": "Complete 100 push-ups each day"
+    },
+    {
+      "id": 10,
+      "name": "No Processed Foods",
+      "description": "Avoid consuming processed foods for 30 days"
+    },
+    {
+      "id": 11,
+      "name": "Sleep Quality",
+      "description": "Focus on improving sleep quality throughout the month"
+    }
+  ]
+}

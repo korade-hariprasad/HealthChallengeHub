@@ -1,0 +1,29 @@
+{
+  "badges": [
+    {
+      "id": 0,
+      "name": "Starter Badge",
+      "description": "Awarded for completing the first challenge."
+    },
+    {
+      "id": 1,
+      "name": "Consistency Streak Badge",
+      "description": "Awarded for completing challenges for 30 days."
+    },
+    {
+      "id": 3,
+      "name": "Weekend Warrior Badge",
+      "description": "Awarded for completing challenges on weekends consistently."
+    },
+    {
+      "id": 7,
+      "name": "Healthy Eater Badge",
+      "description": "Awarded for completing challenges related to healthy eating for a certain period."
+    },
+    {
+      "id": 2,
+      "name": "Hydration Hero Badge",
+      "description": "Awarded for consistently meeting daily water intake goals."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:padding="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="My Daily Challenge"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_dailyChallengeName"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="23sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"/>
+    </LinearLayout>
+
+    <!-- Second Row -->
+    <LinearLayout
+        android:padding="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_dailyChallengeDescription"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_dailyChallenge"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:layout_margin="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_DailyChallengeDone"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Mark Done"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"/>
+    </LinearLayout>
+
+</LinearLayout>
